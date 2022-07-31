@@ -106,6 +106,7 @@
 
 .about-body {
     font-size: 1rem;
+    color: #F2F4F3;
 }
 
 .formlabel {
@@ -139,6 +140,11 @@
 
 .footerp {
     color: #1D2428;
+}
+
+.footerp2 {
+    font-size: 1rem;
+    color: #1d242868;
 }
 
 @media only screen and (max-width:767px) {
