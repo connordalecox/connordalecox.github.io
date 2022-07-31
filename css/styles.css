@@ -1,0 +1,86 @@
+.hoverb:hover {
+    background-color: black;
+}
+
+.ul-width {
+    width: fit-content;
+}
+
+.hero {
+    background-image: url(../img/code.jpg);
+    background-size: cover;
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* .parallax1 {
+    background-image: url(../img/codelines.jpg);
+    background-size: cover;
+ } */
+.parallax1 {
+    background-color: #2A3439;
+ }
+
+.hero-text {
+    text-shadow: 6px 6px 10px #000000;
+    /* color: #F2F4F3; */
+ }
+
+.text-info-dark {
+    color: #4B9EB6;
+}
+
+#main-text {
+    font-size: 5rem;
+  }
+
+.hero-h4 {
+    font-size: 2rem;
+}
+
+.acc-cap {
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px #1D2428;
+    color: #5BC0DE;
+}
+.div-shadow {
+    box-shadow: 4px 4px 15px 5px #000000;
+    border-radius: 2rem;
+}
+
+.accordion-button {
+    background-color: #1D2428 !important;
+    color: #4B9EB6;
+    font-size: 3rem;
+}
+
+.accordion-body {
+    background-color: #2A3439;
+    font-size: 1.5rem;
+    color: #F2F4F3;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #5Bc0DE;
+    text-shadow: inset 1px 1px 3px #F2F4F3;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234B9EB6'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.project-links {
+    text-decoration: none;
+    color: #4B9EB6;
+    padding: 0.5rem;
+}
+
+.project-links:hover {
+    color: #5BC0DE;
+    text-shadow: 1px 1px 1px #000000;
+}

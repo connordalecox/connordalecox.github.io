@@ -8,13 +8,119 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/cba2482ef3.js" crossorigin="anonymous"></script>
+
+    <title>Connor Cox</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark bg-opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#hero">
+            <h1 class="d-inline-block lead text-info">&lt;connordalecox&gt;</h1>
+          </a>
+          <button 
+            class="navbar-toggler bg-info"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarcontent"
+            aria-expanded="false"
+            aria-label="toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarcontent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="navitem">
+                <a class="nav-link activ text-info" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-info"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About Me
+                </a>
+                <ul class="dropdown-menu bg-dark bg-opacity-75 ul-width">
+                  <li><a class="dropdown-item text-info hoverb" href="#projects">Projects</a></li>
+                  <li><a class="dropdown-item text-info hoverb" href="#place2">Work</a></li>
+                  <li><a class="dropdown-item text-info hoverb" href="#place3">Fill</a></li>
+                  <li><a class="dropdown-item text-info hoverb" href="#place4">Fill</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link activ text-info" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <section class="container-fluid parallax hero vh-100" id="hero">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-7 p-2 text-center text-info bg-dark bg-opacity-75 div-shadow">
+          <h1 class="title-text hero-text" id="main-text">Connor Dale Cox</h1>
+          <h4 class="hero-text hero-h4">Aspiring Web Developer</h4>
+          <h5 class="hero-text hero-h5">Student at Bitwise</h5>
+        </div>
+      </div>
+    </section>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <div class="container-fluid parallax parallax1" id="projects">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-10 text-center travel-card text-dark">
+          <h1 class="p-5 acc-cap">My Projects</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  First Project
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is my first project for my web design classes. It is from the end of my very first class at Bitwise and is a simple website made with HTML and CSS.<br><a class="project-links" href="https://connordalecox.github.io/W4B-Final/" target="_blank">Link to Page</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   First Parallax Design
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is my first parallax designed website. I created this using bootstrap for my second Bitwise class. It was very exciting to learn bootstrap and parallax is a really awesome look to me.<br><a class="project-links" href="https://connordalecox.github.io/parallax-practice/#hero" target="_blank">Link to Page</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Event Landing Page Practice
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is a mock-up of a potential event landing page that I created. It is very simple at the moment without any actual event to be made for but gives an idea of what a page for an event could look like.<br><a class="project-links" href="#" target="_blank">Link to Page</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
