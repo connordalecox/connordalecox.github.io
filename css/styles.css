@@ -139,6 +139,11 @@
     font-size: 2rem;
 }
 
+.socialsf1:hover {
+    color: #232a2e;
+    text-shadow: 1px 1px 1px #000000;
+}
+
 .socialsf:hover {
     color: #232a2e;
     text-shadow: 1px 1px 1px #000000;
