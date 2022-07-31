@@ -45,13 +45,14 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  About Me
+                  My Information
                 </a>
                 <ul class="dropdown-menu bg-dark bg-opacity-75 ul-width">
+                  <li><a class="dropdown-item text-info hoverb" href="#aboutme">About</a></li>
                   <li><a class="dropdown-item text-info hoverb" href="#projects">Projects</a></li>
                   <li><a class="dropdown-item text-info hoverb" href="#place2">Work</a></li>
                   <li><a class="dropdown-item text-info hoverb" href="#place3">Fill</a></li>
-                  <li><a class="dropdown-item text-info hoverb" href="#place4">Fill</a></li>
+                  
                 </ul>
               </li>
               <li class="nav-item">
@@ -65,17 +66,31 @@
     
     <section class="container-fluid parallax hero vh-100" id="hero">
       <div class="row justify-content-center align-items-center vh-100">
-        <div class="col-7 p-2 text-center text-info bg-dark bg-opacity-75 div-shadow">
-          <h1 class="title-text hero-text" id="main-text">Connor Dale Cox</h1>
+        <div class="col-6 p-2 text-center bg-dark bg-opacity-75 div-shadow">
+          <h1 class="title-text hero-text text-info" id="main-text">Connor Dale Cox</h1>
           <h4 class="hero-text hero-h4">Aspiring Web Developer</h4>
           <h5 class="hero-text hero-h5">Student at Bitwise</h5>
         </div>
       </div>
     </section>
 
-    <div class="container-fluid parallax parallax1" id="projects">
-      <div class="row justify-content-center align-items-center vh-100">
-        <div class="col-10 text-center travel-card text-dark">
+    <div class="container-fluid parallax parallax1" id="aboutme">
+      <div class="row justify-content-evenly align-items-center min-vh-100 p-2">
+        <div class="col-md-5 order-md-last ">
+          <div class="text-center">
+            <img class="rounded-circle mw-100 selfie" src="../img/profilepic.jpeg" alt="Connor Portrait">
+          </div> 
+        </div>
+        <div class="col-md-5 p-4 text-center travel-card bg-opacity-10 bg-info text-info order-md-first rounded">
+          <p class="about-head h1 mb-4">About Me</p>
+          <p class="about-body">I am a student at Bitwise who has skills in HTML, CSS, and Bootstrap. My next goals are to learn Javascript and React to better my web development knowledge and find a career in the tech world. I also have experience in sales and customer service that come from the auto industry.</p>
+        </div>  
+      </div>
+    </div>
+
+    <div class="container-fluid parallax parallax2" id="projects">
+      <div class="row justify-content-center align-items-center min-vh-100">
+        <div class="col-9 text-center">
           <h1 class="p-5 acc-cap">My Projects</h1>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -86,7 +101,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is my first project for my web design classes. It is from the end of my very first class at Bitwise and is a simple website made with HTML and CSS.<br><a class="project-links" href="https://connordalecox.github.io/W4B-Final/" target="_blank">Link to Page</a>
+                  <p class="acc-text">This is my first project for my web design classes. It is from the end of my very first class at Bitwise and is a simple website made with HTML and CSS.<br><a class="project-links" href="https://connordalecox.github.io/W4B-Final/" target="_blank">Link to Page</a></p>
                 </div>
               </div>
             </div>
@@ -98,7 +113,7 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is my first parallax designed website. I created this using bootstrap for my second Bitwise class. It was very exciting to learn bootstrap and parallax is a really awesome look to me.<br><a class="project-links" href="https://connordalecox.github.io/parallax-practice/#hero" target="_blank">Link to Page</a>
+                  <p class="acc-text">This is my first parallax designed website. I created this using bootstrap for my second Bitwise class. It was very exciting to learn bootstrap and parallax is a really awesome look to me.<br><a class="project-links" href="https://connordalecox.github.io/parallax-practice/#hero" target="_blank">Link to Page</a></p>
                 </div>
               </div>
             </div>
@@ -110,7 +125,7 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is a mock-up of a potential event landing page that I created. It is very simple at the moment without any actual event to be made for but gives an idea of what a page for an event could look like.<br><a class="project-links" href="#" target="_blank">Link to Page</a>
+                  <p class="acc-text">This is a mock-up of a potential event landing page that I created. It is very simple at the moment without any actual event to be made for but gives an idea of what a page for an event could look like.<br><a class="project-links" href="#" target="_blank">Link to Page</a></p>
                 </div>
               </div>
             </div>

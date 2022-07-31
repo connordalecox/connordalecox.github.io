@@ -18,11 +18,10 @@
     background-size: cover;
   }
 
-/* .parallax1 {
-    background-image: url(../img/codelines.jpg);
-    background-size: cover;
- } */
 .parallax1 {
+    background-color: #1D2428;
+ }
+.parallax2 {
     background-color: #2A3439;
  }
 
@@ -31,16 +30,21 @@
     /* color: #F2F4F3; */
  }
 
+
 .text-info-dark {
     color: #4B9EB6;
 }
 
 #main-text {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
 .hero-h4 {
     font-size: 2rem;
+}
+
+.hero-h4, .hero-h5 {
+    color: #F2F4F3;
 }
 
 .acc-cap {
@@ -56,7 +60,7 @@
 .accordion-button {
     background-color: #1D2428 !important;
     color: #4B9EB6;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .accordion-body {
@@ -77,10 +81,29 @@
 .project-links {
     text-decoration: none;
     color: #4B9EB6;
-    padding: 0.5rem;
 }
 
 .project-links:hover {
     color: #5BC0DE;
     text-shadow: 1px 1px 1px #000000;
+}
+
+.selfie {
+    max-height: 30rem;
+    max-width: 30rem;
+}
+
+.about-head {
+    font-size: 4rem;
+}
+
+.about-body {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:767px) {
+    .selfie {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
 }
