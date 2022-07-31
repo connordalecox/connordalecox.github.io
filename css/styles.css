@@ -1,5 +1,6 @@
 .hoverb:hover {
-    background-color: black;
+    background-color: #000000dd;
+    color: #F2F4F3 !important;
 }
 
 .ul-width {
@@ -11,12 +12,14 @@
     background-size: cover;
 }
 
-.parallax{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.brand-text {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.nav-link:hover {
+    color: #F2F4F3 !important;
+}
 
 .parallax1 {
     background-color: #1D2428;
@@ -110,10 +113,52 @@
     padding-bottom: 1rem;
 }
 
+.socials {
+    text-decoration: none;
+    color: #4B9EB6;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.socials:hover {
+    color: #5BC0DE;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.socialsf {
+    text-decoration: none;
+    color: #1D2428;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.socialsf:hover {
+    color: #232a2e;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.footerp {
+    color: #1D2428;
+}
 
 @media only screen and (max-width:767px) {
+    .parallax {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .selfie {
         padding-bottom: 2rem;
         padding-top: 2rem;
     }
 }
+
+@media only screen and (min-width:768px) {
+    .parallax{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+  }
