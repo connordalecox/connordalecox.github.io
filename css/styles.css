@@ -30,6 +30,7 @@ html body {
 
 .nav-link:hover {
     color: #F2F4F3 !important;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .parallax1 {
@@ -71,6 +72,10 @@ html body {
     color: #5BC0DE;
 }
 
+.accordion-button:hover {
+    color: #5BC0DE;
+}
+
 .con-cap {
     text-shadow: 2px 2px 8px #1D2428;
 }
@@ -99,6 +104,10 @@ html body {
 
 .accordion-button:after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234B9EB6'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button:hover:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235BC0DE'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 .project-links {
@@ -158,12 +167,12 @@ html body {
 }
 
 .socialsf1:hover {
-    color: #232a2e;
+    color: #2A3439;
     text-shadow: 1px 1px 1px #000000;
 }
 
 .socialsf:hover {
-    color: #232a2e;
+    color: #2A3439;
     text-shadow: 1px 1px 1px #000000;
 }
 
@@ -179,6 +188,16 @@ html body {
 .acc-text {
     text-align: left;
 }
+
+.btn-info:hover {
+    background-color: #4B9EB6;
+    box-shadow: inset 2px 2px 3px #000000;
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+  }
 
 
 
