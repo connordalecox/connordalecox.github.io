@@ -10,6 +10,9 @@ html body {
     background-color: #000000dd;
     color: #F2F4F3 !important;
 }
+.bg-info-dark {
+    background-color: #4B9EB6;
+}
 
 .ul-width {
     width: fit-content;
