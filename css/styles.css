@@ -159,6 +159,10 @@
     color: #1d242868;
 }
 
+.acc-text {
+    text-align: left;
+}
+
 
 
 @media only screen and (max-width:767px) {
@@ -182,3 +186,29 @@
       }
     
   }
+
+@media only screen and (max-width: 1130px) {
+    .accordion-body {
+        display: block;
+        flex-wrap: wrap;
+    }
+    
+    img {
+        margin: auto;
+    }
+
+    .acc-text {
+        padding-top: 2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1131px) {
+    .acc-text {
+        padding-left: 2rem;
+    }
+
+    img {
+        margin: auto;
+    }
+}
