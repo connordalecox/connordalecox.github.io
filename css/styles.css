@@ -1,3 +1,11 @@
+html body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bfont {
+    font-family: 'Roboto', sans-serif;
+}
+
 .hoverb:hover {
     background-color: #000000dd;
     color: #F2F4F3 !important;
@@ -43,7 +51,7 @@
 }
 
 #main-text {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
 .hero-h4 {
