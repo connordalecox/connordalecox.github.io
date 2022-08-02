@@ -10,6 +10,7 @@ html body {
     background-color: #000000dd;
     color: #F2F4F3 !important;
 }
+
 .bg-info-dark {
     background-color: #4B9EB6;
 }
@@ -37,22 +38,22 @@ html body {
     background-color: #1D2428;
     background-image: url(../img/1D2428.jpeg);
     background-size: cover;
- }
+}
+
 .parallax2 {
     background-color: #2A3439;
     background-image: url(../img/2A3439.jpeg);
- }
+}
 
- .parallax3 {
+.parallax3 {
     background-color: #1D2428;
     background-image: url(../img/1D2428.jpeg);
- }
+}
 
 .hero-text {
     text-shadow: 6px 6px 10px 10px #000000;
     /* color: #F2F4F3; */
- }
-
+}
 
 .text-info-dark {
     color: #4B9EB6;
@@ -60,7 +61,7 @@ html body {
 
 #main-text {
     font-size: 5rem;
-  }
+}
 
 .hero-h4 {
     font-size: 2rem;
@@ -201,9 +202,9 @@ html body {
 
 .accordion-button:focus {
     box-shadow: none;
-  }
+}
 
-
+/* Media Queries */
 
 @media only screen and (max-width:767px) {
     .parallax {
@@ -211,6 +212,7 @@ html body {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    
     .selfie {
         padding-bottom: 2rem;
         padding-top: 2rem;
@@ -225,7 +227,7 @@ html body {
         background-size: cover;
       }
     
-  }
+}
 
 @media only screen and (max-width: 1130px) {
     .accordion-body {
