@@ -37,7 +37,6 @@ html body {
 .parallax1 {
     background-color: #1D2428;
     background-image: url(../img/1D2428.jpeg);
-    background-size: cover;
 }
 
 .parallax2 {
@@ -52,7 +51,6 @@ html body {
 
 .hero-text {
     text-shadow: 6px 6px 10px 10px #000000;
-    /* color: #F2F4F3; */
 }
 
 .text-info-dark {
@@ -181,13 +179,8 @@ html body {
     text-shadow: 1px 1px 1px #000000;
 }
 
-.footerp {
+.footer-p {
     color: #1D2428;
-}
-
-.footerp2 {
-    font-size: 1rem;
-    color: #1d242868;
 }
 
 .acc-text {
@@ -196,8 +189,7 @@ html body {
 
 .btn-info:hover {
     background-color: #4B9EB6;
-    box-shadow: inset 2px 2px 3px #000000;
-    border: none;
+    box-shadow: inset 1px 1px 3px #000000;
 }
 
 .accordion-button:focus {
